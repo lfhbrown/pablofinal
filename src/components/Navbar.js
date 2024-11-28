@@ -7,8 +7,7 @@ const Navbar = () => {
     <div className="navbar">
       <FaCoins className="icon" />
       <h1>
-        {" "}
-        Coin <span className="purple">Search</span>
+        Coin <span className="purple">Search</span> {/*Inline style element to change color of the word "Search" */}
       </h1>
     </div>
   );

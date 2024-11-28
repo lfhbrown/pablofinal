@@ -10,7 +10,7 @@ const CoinItem = (props) => {
       </div>
       <p>{props.coins.current_price}</p>
       <p>{props.coins.price_change_percentage_24h}</p>
-      <p className="hide-mobile">{props.coins.total_volume}</p>
+      <p className="hide-mobile">{props.coins.total_volume}</p> {/*hide-mobile in Coins.css */}
       <p className="hide-mobile">{props.coins.market_cap}</p>
     </div>
   );
